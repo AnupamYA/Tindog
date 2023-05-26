@@ -1,0 +1,133 @@
+
+#title{
+    background-color: #fd1336;
+    color: #fff;
+
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 2.5;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 5;
+}
+h3{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    font-size: 46px;
+    line-height: 2.5;
+    font-weight: bold;
+}
+.container-fluid{
+    height: 600px;
+    padding: 3% 15% 7%;
+}
+.nav-item{
+    font-display: #080808;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+
+}
+.nav-item{
+    padding: 0 18px;
+    color: #fff;
+}
+.nav-link{
+    font-family: "";
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding:5%;
+}
+.icon{
+    color: #ee222c;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    color: #fff;
+    
+    text-align: center;
+    background-color:#ee222c;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 15px;
+}
+#press{
+    background-color:#ee222c;
+    text-align: center;
+}
+.press-log{
+    width: 15%;
+    margin: 20px 20px 20px 70px ;
+  
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 2% 3%;
+}
+#cta{
+    background-color: #ee222c;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15%;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+}
+.logo{
+    margin: 20px 10px;
+}
+@media (max-width: 988px) {
+#title{
+    text-align: center;
+}
+.container-fluid{
+    height: auto; 
+}
+    .image{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+
+    
+}
